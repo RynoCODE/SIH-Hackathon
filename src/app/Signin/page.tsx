@@ -10,6 +10,16 @@ const SignIn = () => {
 
             <div className="w-full flex-1 mt-8">
               <div className="mx-auto max-w-xs">
+                <select
+                  className="w-full text-black px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white  mb-4"
+                  name=""
+                  id=""
+                >
+                  <option value="studentSignup">sign up as student</option>
+                  <option value="instructorSignup">
+                    Sign up as Instructor
+                  </option>
+                </select>
                 <input
                   className="w-full text-black px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white"
                   type="email"

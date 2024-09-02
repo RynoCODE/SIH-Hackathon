@@ -5,10 +5,8 @@ import Signup from "./Signup/page";
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <h1>Home</h1> */}
-      {/* <Signin /> */}
-      <Signup />
+      <a href="/Signin">Sign In</a>
+      <a href="/Signup">Sign Up</a>
     </>
   );
 }
